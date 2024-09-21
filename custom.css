@@ -1,0 +1,104 @@
+/* App User Interface
+ ---------------------------------------------*/
+@media(max-width: 768px) {
+    .navbar-toggle.show {
+        border-top: 1px solid #ddd;
+    }
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.nav-item-divider {
+    border-left: 1px solid #d3d3d3;
+    padding-left: 15px;
+}
+
+.input {
+    height: calc(1.3em + .75rem + 2px);
+    padding: .258rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+  
+.btn-file {
+    border: 2px dashed #ccc;
+    cursor: pointer;
+    padding: 20px 0px 0px;
+}
+
+.btn-file:hover {
+    border-color: #5333ed;
+    color: #5333ed;
+}
+  
+.btn-file img {
+    margin: 0px auto;
+}
+  
+.file-box .change-file {
+    color: #5333ed;
+    font-size: 14px;
+    display: none;
+}
+
+.course-sidebar {
+    float: left;
+    height: 100vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.course-sidebar .course-logo {
+    max-height: 300px;
+}
+
+.course-sidebar .list-group-item {
+    color: #495057;
+}
+
+.course-sidebar .list-group-item.active {
+    color: #5333ed;
+}
+
+.course-mainbar {
+    float: right;
+    background: #fff;
+    min-height: 100vh;
+}
+
+
+.course-mainbar .list-group-item, 
+.course-sidebar .list-group-item {
+    background-color: #fff;
+    border-top: none;
+    border-color: #eee !important;
+}
+
+/* instuctor page */
+.stripe {
+    height: 3px;
+    background-color: #1da1cd;
+    background: -moz-linear-gradient(left, #F9C80E 0%,#F9C80E 12.5%,#F86624 12.5%,#F86624 25%,#EA3546 25%,#EA3546 37.5%,#662E9B 37.5%,#662E9B 50%,#43BCCD 50%,#43BCCD 62.5%,#FFD23F 62.5%,#FFD23F 75%,#3BCEAC 75%,#3BCEAC 87.5%,#0EAD69 87.5%,#0EAD69 100%);
+    background: -webkit-linear-gradient(left, #F9C80E 0%,#F9C80E 12.5%,#F86624 12.5%,#F86624 25%,#EA3546 25%,#EA3546 37.5%,#662E9B 37.5%,#662E9B 50%,#43BCCD 50%,#43BCCD 62.5%,#FFD23F 62.5%,#FFD23F 75%,#3BCEAC 75%,#3BCEAC 87.5%,#0EAD69 87.5%,#0EAD69 100%);
+}
+
+.alert-response {
+    width: 300px;
+    position: fixed;
+    bottom: 1px;
+    left: 20px;
+    right: 20px;
+    z-index: 999;
+  }
